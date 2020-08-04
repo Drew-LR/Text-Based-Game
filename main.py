@@ -3,7 +3,8 @@ import constants
 import event_handler
 import ui
 import text_handler
-from enter_name import enter_name
+
+ui_ob = ui.Ui()
 
 menu = ["new game", "continue", "quit"]
 
@@ -17,14 +18,13 @@ def print_menu(selected_row_idx):
         else:
             print(term.move_xy(x, y) + row)    
 
-def main():
+def game_loop():
     print(term.clear())
     current_row = 0
     print_menu(current_row)
 
     with term.hidden_cursor(), term.cbreak():
         while 1:
-
             key = term.inkey()
             if key.is_sequence:
 
@@ -34,9 +34,10 @@ def main():
                     current_row += 1
                 elif key.name == 'KEY_ENTER':
                     if current_row == 0:
+                        ui_ob.enter_name()   
                         event_handler.game_events()
                     elif current_row == 1:
-                        print(term.clear + term.home + "ahh, save data")
+                        print(term.clear + term.home + "Saving not yet implimented. For crying out loud its just a demo!")
                         term.inkey()
                     elif current_row == len(menu) -1:
                         break
@@ -44,6 +45,5 @@ def main():
                 print_menu(current_row)
     print(term.clear)
 
-#constants.name = enter_name()
-main()
+game_loop()
 

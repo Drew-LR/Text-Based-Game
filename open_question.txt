@@ -1,4 +1,4 @@
- A DOOR!#
+ Arriving at the library you are greeted by a closed door.#
  #
 1) Open it like a normal person#
 2) Open it like Ernest Hemingway#  
@@ -14,7 +14,7 @@
 3) Add Gold#
 4) Subtract Gold#
 @
-You now have more HP#
-You now have less HP, why did you choose that?#
-Gold has been added#
-Thanks for the Gold, stranger#
+ You now have more HP#
+ You now have less HP, why did you choose that?#
+ Gold has been added#
+ Thanks for the Gold, stranger#

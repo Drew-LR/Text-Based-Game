@@ -1,16 +1,22 @@
-from blessed import Terminal
-
-term = Terminal()
-
-def move_to_bottom():
-    print(term.move_down(10))
-    print("no")
+import random
 
 
-def move_to_top():
-    term.move_up(term.height)
 
-print(term.clear())    
+def flip(n):
 
-move_to_bottom()
-term.inkey()    
+    heads = 0
+    tails = 0
+
+    for i in range(n):
+        chance = random.randint(0,5)
+        if chance == 1:
+            heads += 1
+        else:
+            tails += 1
+    print('heads = ', heads, '%')
+    print('tails = ', tails, '%')
+
+flip(100)
+
+
+

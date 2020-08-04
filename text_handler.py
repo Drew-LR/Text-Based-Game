@@ -5,7 +5,7 @@ import random
 
 class Text_handler(): # this class displaying text of various types and handles cases where the player responds to text by making choices.
     def __init__(self, filename):
-        file = open(filename, "r")  # each instance of this class opens, reads in and closes a file chosen on instantiation
+        file = open(filename, "r")  # each instance of this class opens, reads in and closes a file designated on instantiation
         self.data = file.read()
         file.close
 
@@ -19,7 +19,7 @@ class Text_handler(): # this class displaying text of various types and handles 
         self.text_pos = term.home + term.move_down(9) # a standard cursor position for printing text in the right place(about half way down the window)
         self.paragraph = self.data.split("\n\n") # This seperates the text document by paragragh, allowing the function call to access a specific paragragh, yes/no question or open question instance.
 
-    def yn_txt(self, p, y_con, y_dict, n_con, n_dict): # prints yes/no question text and allows the player to answer. passed arguments take the form: ('p' for which paraghraph to read in from text file), (function which initiates the yes condition, 'y_con'), (a dict with parameter name and value to pass to y_con if returned, 'y_dict'). same format again for n_con/n_dict.
+    def yn_txt(self, p, y_con, y_dict, n_con, n_dict): # prints yes/no question text and allows the player to answer. passed arguments take the form: ('p' for which paraghraph to read in from text file), (function which initiates the yes condition, 'y_con'), (a value to pass to y_con if returned, 'y_dict'). same format again for n_con/n_dict.
         text = self.paragraph[p].split('#') # seperate text by line with a '#'. splitting by line may not always be appropriate as question text might be any length, doing it this way seperates it into: text[0]=(question), text[1]=(yes outcome), text[2]=(no outcome).
         print(self.text_pos + term.clear_eos + textwrap.fill(text[0], term.width, break_long_words=False) + self.yn) # prints the question at the standard text position followed by the 'yn' end string prompt
 
@@ -57,7 +57,15 @@ class Text_handler(): # this class displaying text of various types and handles 
     
     def consequence_returner(self, p): #returns a randomly selected consequence text from the category at 'p', e.g death category.
         text = self.paragraph[p].splitlines() #splits self.paragraph(the category selected by 'p') into a list of lines
-        return (self.text_pos + term.clear_eos + textwrap.fill(random.choice(text), term.width, break_long_words=False)) # prints a randomly selected, wrapped, string from category 'p'  
+        return (term.clear + self.text_pos + textwrap.fill(random.choice(text), term.width, break_long_words=False)) # prints a randomly selected, wrapped, string from category 'p'  
+
+    def game_over(self, p):
+        text = self.paragraph[p].splitlines() #splits self.paragraph(the category selected by 'p') into a list of lines
+        if p == 0:
+            return (term.clear + self.text_pos + term.move_right(term.width//2- len(text[p])//2) + textwrap.fill(random.choice(text), term.width, break_long_words=False)) # prints a randomly selected, wrapped, string from category 'p' 
+        else:
+            constants.skip = 100
+            return (term.clear + self.text_pos + term.move_right(term.width//2- len(self.paragraph[p])//2) + textwrap.fill(self.paragraph[p], term.width, break_long_words=False)) # prints a randomly selected, wrapped, string from category 'p'  
 
     def battle_text(self, p, func, func_var): # takes 'p' as the index of the paragraph to access from a file.
         print(self.text_pos + term.clear_eos + textwrap.fill(self.paragraph[p], term.width, break_long_words=False) + self.start_battle)

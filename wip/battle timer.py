@@ -9,3 +9,28 @@
        
     #         if self.display_timer == []:
     #             t.cancel()
+
+
+                    
+                
+
+
+
+# This dict/iterative print statement/function are part of a new ui system intended to manage all the ui stats, is not implimented and is a WIP.
+# i'll probably finish this once I convert yes/no questions into two-option open questions.
+#cls.stat_dict ={'{:>5}'.format('Name'):cls.name, '{:>5}'.format('Gold'):cls.gold, '{:>5}'.format('HP'):cls.hp, '{:>5}'.format('Speed'):cls.speed}
+
+# for k,v in cls.stat_dict.items():
+#             print(k,v)
+# def numeric_stat_handler(self, key, stat_change):
+#     for k,v in cls.stat_dict.items():
+#         if key == k:
+#             stat = v
+
+#     if stat_change >= 0:
+#         stat += stat_change
+#         return cls.ui_update
+
+    
+
+

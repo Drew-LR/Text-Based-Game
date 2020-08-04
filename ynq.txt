@@ -1,5 +1,5 @@
- Anyway, there's money. Take it?#
-There were no consequenses. You are 200 gold richer.#
+ Anyway, there's money too. Take it?#
+You are now 200 gold richer.#
 You decide to travel lighter with an empty purse, and an empty stomach.#
 
 
