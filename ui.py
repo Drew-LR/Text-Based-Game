@@ -1,33 +1,67 @@
 from constants import term
 import constants
-import text_handler
+#import text_handler
 import time
 import textwrap
+import items_lib
 
-consequence_ob = text_handler.Text_handler('consequences.txt')
+#consequence_ob = text_handler.Text_handler('consequences.txt')
 
 class Ui():
-    name = ''
-    gold = constants.gold
-    hp = constants.hp
-
-    speed = constants.speed
-    weapon = constants.weapon
-    shield = constants.shield
-    item_1 = constants.item_1
-    item_2 = constants.item_2
-
+    name = 'Lonk'
+    gold = 5
+    hp = 30
+    hp_max = 30
+    speed = 8
+    weapon = items_lib.no_item
+    shield = items_lib.no_item
+    item_1 = items_lib.no_item
+    item_2 = items_lib.no_item
 
     player_has_moved = False
 
     @classmethod
     def reset(cls):
         cls.name = ''
-        cls.gold = constants.gold
-        cls.hp = constants.hp
-        cls.speed = constants.speed
+        cls.gold = 5
+        cls.hp = 30
+        cls.speed = 8
 
+        cls.weapon = items_lib.no_item
+        cls.shield = items_lib.no_item
+        cls.item_1 = items_lib.no_item
+        cls.item_2 = items_lib.no_item
 
+    @classmethod
+    def item_handler(cls, item, index, list):
+        unequip = items_lib.no_item
+        if item == 'weapon':
+            if cls.weapon == list[index]:
+                cls.weapon = unequip
+            else:
+                cls.weapon = list[index]
+        elif item == 'shield':
+            if cls.shield == list[index]:
+                cls.shield = unequip
+            else:
+                cls.shield = list[index]
+        elif item == 'item_1':
+            if cls.item_1 == list[index]:
+                cls.item_1 = unequip
+            elif cls.item_2 == list[index]:
+                cls.item_2 = unequip
+                cls.item_1 = list[index]
+            else:
+                cls.item_1 = list[index] 
+        elif item == 'item_2':
+            if cls.item_2 == list[index]:
+                cls.item_2 = unequip
+            elif cls.item_1 == list[index]:
+                cls.item_1 = unequip
+                cls.item_2 = list[index]
+            else:
+                cls.item_2 = list[index] 
+    
     @classmethod
     def speed_handler(cls, speed_change):
 
@@ -45,31 +79,35 @@ class Ui():
 
         if gold_change >= 0:
             cls.gold += gold_change
-            cls.ui_update()
+            #cls.ui_update()
             return term.home + term.move_down(1) + "{:>7}{:<}".format('Gold: ', cls.gold) + " " + term.green("+{} Gold ").format(gold_change)
         else:
             if abs(gold_change) > cls.gold:
-                cls.gold = 0
-                return consequence_ob.consequence_returner(0)
+                #cls.gold = 0
+                #cls.ui_update()
+                return term.home + term.move_down(1) + "{:>7}{:<}".format('Gold: ', cls.gold) + " " + term.red("Insufficient gold ")
             cls.gold += gold_change
-            cls.ui_update()
+            #cls.ui_update()
             return term.home + term.move_down(1) + "{:>7}{:<}".format('Gold: ', cls.gold) + " " + term.red("{} Gold ").format(gold_change)
     
     @classmethod
     def hp_handler(cls, hp_change):
 
         if hp_change >= 0:
-            for i in range(hp_change):
-                cls.hp.append('#')
-            cls.ui_update()
-            return term.home + term.move_down(2) + "{:>7}{:<}".format('HP: ', ''.join(cls.hp)) + " " + term.green("+{} HP ").format(hp_change)
+            cls.hp += hp_change
+            if cls.hp > cls.hp_max:
+                cls.hp = cls.hp_max
+                #cls.ui_update()
+                return term.home + term.move_down(2) + "{:>7}{:<}".format('HP: ', cls.hp) + " " + term.green("{} HP ").format('MAX')
+            #cls.ui_update()
+            return term.home + term.move_down(2) + "{:>7}{:<}".format('HP: ', cls.hp) + " " + term.green("+{} HP ").format(hp_change)
         else:
-            for i in range(hp_change, 0, 1):
-                cls.hp = cls.hp[:-1]
-                if cls.hp == []:
-                    constants.skip = 99
-            cls.ui_update()        
-            return term.home + term.move_down(2) + "{:>7}{:<}".format('HP: ', ''.join(cls.hp)) + " " + term.red("{} HP ").format(hp_change)
+            cls.hp += hp_change
+            if cls.hp <= 0:
+                cls.hp = 0
+                constants.skip = 99
+            #   cls.ui_update()        
+            return term.home + term.move_down(2) + "{:>7}{:<}".format('HP: ', cls.hp) + " " + term.red("{} HP ").format(hp_change)
     
         
     @classmethod
@@ -81,24 +119,27 @@ class Ui():
         # column 1
         print(term.home + term.clear_eol + "{:>7}{:<}".format('Name: ', cls.name))
         print(term.home + term.move_down(1) + term.clear_eol + "{:>7}{:<}".format('Gold: ', cls.gold))
-        print(term.home + term.move_down(2) + term.clear_eol + "{:>7}{:<}".format('HP: ', ''.join(cls.hp)))
+        if cls.hp <= 3:
+            print(term.home + term.move_down(2) + term.clear_eol + term.red("{:>7}{:<}").format('HP: ', cls.hp))
+        else:
+            print(term.home + term.move_down(2) + term.clear_eol + "{:>7}{:<}".format('HP: ', cls.hp))
+        
         print(term.home + term.move_down(3) + term.clear_eol + "{:>7}{:<}".format('Speed: ', cls.speed))
 
         # column 2
-        print(term.home + term.move_right(term.width//3) + term.clear_eol + "{:>7}{:<}".format('Weapon: ', cls.weapon[0]))
-        print(term.home + term.move_down(1) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Shield: ', cls.shield[0]))
-        print(term.home + term.move_down(2) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Item 1: ', cls.item_1[0]))
-        print(term.home + term.move_down(3) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Item 2: ', cls.item_2[0])) 
+        print(term.home + term.move_right(term.width//3) + term.clear_eol + "{:>7}{:<}".format('Weapon: ', cls.weapon.name))
+        print(term.home + term.move_down(1) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Shield: ', cls.shield.name))
+        print(term.home + term.move_down(2) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Item 1: ', cls.item_1.name))
+        print(term.home + term.move_down(3) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Item 2: ', cls.item_2.name)) 
 
+        # column 3
+        print(term.home + term.move_right(term.width-15) + 'I for inventory'
+)
         # print a line
         print(term.home + term.move_down(3))
         for i in range(0,term.width):
             print('_', end='')
          
-
-    def empty(self, empty=''):
-        if empty == 'empty':
-            return ''
 
     @classmethod
     def enter_name(cls):
@@ -146,3 +187,4 @@ class Ui():
                         continue   
                 elif key =='n':
                     continue
+

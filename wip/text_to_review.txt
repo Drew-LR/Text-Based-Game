@@ -1,0 +1,34 @@
+Anyway, there's money too. 200 gold pieces as it turns out.#
+#
+1) Take it.#
+2) Leave it.#
+@
+Become 200 gold richer...#
+Decide to travel lighter with an empty purse, and an empty stomach...#
+
+ It seems there's no choice but to fight the Goblin!
+
+ Not enough gold.
+But alas, you are poor.
+Perhaps earn the gold first, then try again.
+No credit here, you'll need gold.
+
+This is the ultimate test of the open question feature! it has four posibilities, each of which does something. Choose...#
+#
+1) Add HP#
+2) Subtract HP#
+3) Add Gold#
+4) Subtract Gold#
+@
+ You now have more HP#
+ You now have less HP, why did you choose that?#
+ Gold has been added#
+ Thanks for the Gold, stranger#
+
+ Arriving at the library you are greeted by a closed door.#
+#
+1) Open it like a normal person#
+2) Open it like Ernest Hemingway#  
+@
+ It seems to have worked, you pass through the door in the most mundane way imaginable...#
+ You ram the door forcefully with your head! It flys open dramatically and you swagger through it, looking for any bottles which may happen to be sequestered within...#

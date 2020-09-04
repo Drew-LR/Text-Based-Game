@@ -1,0 +1,287 @@
+
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False.
+ constants.unmaze? Index 6. Maze False.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False.
+ next? 2.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False.
+ next? 7.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze True
+ next? 2.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ next? 2.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ next? 6.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ next? 7.
+ next? 8.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ next? 7.
+ next? 8.
+ next? 9.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze is True
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ constants.unmaze? Index 1. Maze False. Unmaze False
+ next? 7.
+ next? 8.
+ next? 9.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze =
+ 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f639adfee20>>, 12, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 2, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 2)
+ 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f639adfee20>>, 13, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 1)
+ 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f639adfee20>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 1)
+ 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f639adfee20>>, 5)
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze =
+ 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 12, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 1)
+ 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 1)
+ 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2)
+ 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 5)
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze =
+ 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 12, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2)
+ 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 1)
+ 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 1)
+ 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 5)
+ constants.maze? Index 6. Maze True.
+ constants.absolute in txthndlr 2.
+ constants.absolute? Index 2.
+ constants.absolute in txthndlr 2.
+ constants.absolute? Index 2.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 1.
+ constants.absolute? Index 1.
+ constants.absolute in txthndlr 2.
+ constants.absolute? Index 2.
+ constants.absolute in txthndlr 2.
+ constants.absolute? Index 2.
+ constants.absolute in txthndlr 2.
+ constants.absolute? Index 2.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze =
+ 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 13, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 2)
+ 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 1)
+ 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 2)
+ 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 5)
+ constants.maze? Index 6. Maze True.
+ next? 1.
+ next? 2.
+ constants.absolute in txthndlr 2.1.
+ constants.absolute? Index 2.1.
+ next? 3.
+ next? 4.
+ constants.absolute in txthndlr 6.
+ constants.absolute? Index 6.
+ maze =
+ 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 13, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 2)
+ 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 1)
+ 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 1)
+ 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 5)
+ constants.maze? Index 6. Maze True.

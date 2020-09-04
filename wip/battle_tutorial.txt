@@ -1,0 +1,26 @@
+battle tutorial
+
+# initiative
+battles are turn based. the fighter with the highest initiative goes first. initiative is calculated at the begining of each turn. each fighter has a base initiative, this is modified by actions taken in previous turns.
+    - attacking lowers initiative by 3
+    - defending raises initiative by 6
+    - offensive items lower initiative by 2
+    - defensive items raise initiative by 3
+passive items can affect initiative, as can certain weapons or shields. these effects are specific to those items.
+if a fighters initiative doubles that of their opponent they will act twice. their opponent effecively skips a turn.
+
+# attack
+attacking uses a fighters equipped weapon. weapons normally have a damage range and hit chance, some have special effects too. an attack's power is calculated from the weapons damage range plus any passive effects.
+ the attack must hit through the opponents defencive capabilities such as passive defence from a shield or items, this total is subtracted from the attacks damage roll and the result (if positive) constitutes damage taken by the opponent.
+
+ # defend 
+ only available if a shield is equipped. in addition to the shield's passive defence (and that of any items), defending halves the enemy's attack. 
+
+ # non-passive items
+ non-passive passive items provide actions in battle just like weapons or shields. these may be offensive or defensive and consumable or not consumable. some perform devestating but unlikely damage, others heal or buff the player and still others disrupt the enemy's stats.
+
+ # passive items
+ these are non-consumable and do not provide actions in battle. They do provide a boost to stats like initiative, defence or attack for as long as they are equipped.
+
+ # unique actions
+ sometimes unique actions present themselves, these may be for the player to interact with the environment during a battle or use quest items. often enemies will perform unique actions based on their race or abilities, for example goblins are clumsy but oportunistic, thus they may fumble but then make the most of it with increased initiative next turn.

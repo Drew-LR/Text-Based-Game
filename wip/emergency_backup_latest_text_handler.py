@@ -36,7 +36,6 @@ class Text_handler(): # this class displaying text of various types and handles 
         def interact():
             while 1:
                 key = term.inkey()
-                ui_ob.ui_update()
                 if key == 'i':
                     inventory_ob.inventory()
                     update()
@@ -47,10 +46,12 @@ class Text_handler(): # this class displaying text of various types and handles 
         paragraph = open_text()
         update()
         interact()
+        ui_ob.ui_update()
         if func != 0:
             return func(para)
         else:
             return ''
+
 
     def branch(self, p, *argv): # function prints and handles open questions with any number of possible answers. it takes arguments in the format; ('p' for which paraghraph to read in from text file. 'p' variable is a positional argument, not an argv), (a number string, i.e. '1', which will match 'key'), (a function which will give some result), (a value to provide the function when it is returned) 
         def open_text():
@@ -81,7 +82,7 @@ class Text_handler(): # this class displaying text of various types and handles 
             key_text = 0
             while 1:
                 key = term.inkey() # wait for key press and bind it to variable 'key', number keys return a string of that number.
-                ui_ob.ui_update()
+                #ui_ob.ui_update()
                 for i in range(len(argv)): # iterate through each index in argv.
                     if argv[i] == str(key): # if an arg in argv matches the string stored in 'key', print (with text wrapping) the line in text2 which corresponds to that number. key is converted to int and used as the index of text2 (-1 because the optional args in argv always start at 1 so the player doesn't input a zeroth choice) 
                         if key == argv[-3]:
@@ -121,26 +122,26 @@ class Text_handler(): # this class displaying text of various types and handles 
         update()
         res = interact()
         if len(res) == 2:
-            if 'inventory' or 'go_to' not in str(res[0]): # inventory and goto changes dont return something to print
+            if 'inventory' or 'go_to' not in str(res[0]): # as at 2/9/20 only inventory changes dont return something to print
                 return res[0](res[1]) # this returns us directly to a print statement, if there's nothing to print it will print none.
             else:
-                threader.return_func(res[0], res[1]) # for the non-print result we need to use this
+                threader.return_func(res[0], res[1]) # for the non-print result
                 return '' # then return a nothing string so that 'none' doesnt print
         else: # res has four elements
+            
             if 'gold' in str(res[2]) and res[3] < 0 and res[3] < ui_ob.gold: # player tried to make a purchase, check they have enough gold.
                 return res[2](res[3])
                 # to expand here... if player has max hp, dont let them pay for healing. 
             else:
-                if 'hp' in str(res[0]) or 'gold' in str(res[0]):# check if the first tuple is a function that prints
-                    threader.print_func(res[0], res[1]) # if so feed it to threaders print function
-                else:
-                    threader.return_func(res[0], res[1]) # if not feed it to threaders return function
-
-                if 'hp' in str(res[2]) or 'gold' in str(res[2]):
-                    threader.print_func(res[2], res[3])
-                else:
-                    threader.return_func(res[2], res[3])
-                return ''
+                things_that_print = ['hp', 'gold']
+                for i in things_that_print:
+                    if i in str(res[0]):# check if the first tuple is a function that prints
+                        threader.print_func(res[0], res[1]) # if so feed it to threaders print function
+                        break
+                    else:
+                        threader.return_func(res[0], res[1]) # if not feed it to threaders return function
+                        break
+                return res[2](res[3]) # if it changes player ui, return directly
 
     def game_over(self, p):
         text_string = ''

@@ -1,18 +1,16 @@
 from blessed import Terminal
 
-
 term = Terminal()
 
-
-skip = 0
+skip = 0.0
+static = False
 game_over = False
-gold = 200
-hp = ['#', '#', '#', '#', '#']
-speed = 10
-weapon = ['Wooden sword', '(4-6 damage)']
-shield = ['Leather buckler','(2,3 defence)']
-item_1 = ['Cold amulet', '(4-9 Ice damage)']
-item_2 = ['Magic beans', '(One hit kill, if they get in your opponent\'s mouth)']
+current_branch = 0
+absolute = 0
+maze = False
+maze_exit = False
 
-
-goblin_notes = 'Goblins are hostile and mischievous. They will attempt to ambush opponents for valuable loot. Luckily they are also notably clumsy, rendering them mostly harmless.'
+def dump_print(string, *argv):
+    file = open('dump.txt', 'a')
+    file.write(string, argv)
+    file.close()

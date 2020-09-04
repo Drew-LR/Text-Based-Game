@@ -3,6 +3,7 @@ import constants
 import event_handler
 import ui
 import text_handler
+import event_list
 
 ui_ob = ui.Ui()
 
@@ -34,8 +35,8 @@ def game_loop():
                     current_row += 1
                 elif key.name == 'KEY_ENTER':
                     if current_row == 0:
-                        ui_ob.enter_name()   
-                        event_handler.game_events()
+                       # ui_ob.enter_name()   
+                        event_handler.game_events(event_list.main_dict)
                     elif current_row == 1:
                         print(term.clear + term.home + "Saving not yet implimented. For crying out loud its just a demo!")
                         term.inkey()

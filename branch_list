@@ -1,0 +1,177 @@
+
+0:
+The ageing blonde hero placed a coin pouch and a folded note on the smoking table next to your armchair. he extended his hand, palm up, in a gensture of offer. You assume accepting the gold is a condition of accepting whatever the contents of the note may require from you. do you accept the offer?#
+#
+1) Accept.#
+2) Decline.#
+@
+Who would pass up the chance to assist a brother in arms, or gold...#
+He is the sole master of his fortunes, best of luck to him...#
+
+1:
+
+Before embarking on any quest it's a good idea to ready yourself for any eventuality. Spend some of that gold and avail yourself of the resources at the Retired Adventurers Arms...#
+#
+1) Explore the Retired Adventurers Arms.#
+2) Embark immediately.#
+@
+Go wander the familiar halls of the place you call home...#
+Never go unprepared, are you ready?# 
+
+2:
+
+Home sweet home, the Retired Adventurers Arms. All manner of equipment is available here, produced, procured and peddled by the skilled practitioners of an erstwhile era... Where will you spend your hard earned gold?#
+#
+1) Visit your rooms to rest and restock.#
+2) The barmaid offers imbibements and information.#
+3) The man who sells potions.#
+4) Xord the retired smith who sells weapons and shields.#
+5) Continue on your quest.#
+@
+To your rooms you go...#
+A drink, a momentary solace...#
+A stock of potions is wise for an adventurer...#
+A shield against the reaper, and a weapon to push him back...#
+Though the body may wither, the heroic spirit yearns for one last adventure...#
+
+3:
+
+Draughty halls and dusty rooms. Heroes dine with kings and live in luxury under the auspices of our fame. But the people's need for heroes endures beyond the rigour of our youth. New challenges arise and are met. A new generation of celebrants and celebrities. Those of us who outlive our glory days live here... or worse, must wander, as Aidan did.#
+#
+1) Rest - Restore HP#
+2) Restock - Access your personal storage trunk#
+3) Questing journal#
+4) leave#
+@
+Nothing like your own bed. HP restored#
+Unlock the trunk and peruse your personal affects...#
+A journal kept in your youth...#
+On to the next place...#
+
+4:
+
+Years of collecting the best loot adorns an adventurer with wealth. The years after see it pawend for subsistence. Like others, you have kept only the most precious items... the sentimental ones.#
+#
+1) Wooden Sword#
+2) Leather Buckler#
+3) Leave#
+@
+Basic sword#
+Basic shield#
+Close trunk#
+
+5:
+
+The Arm's busty bar wench and bouncer mixes drinks, minces words and bests all in the art of boxing. nobody misbehaves in this bar. The cocktail of the month has been 'Seventh Heaven' for as long as anyone here remembers.#
+#
+1)Test a quest#
+2) Another options#
+3) Leave#
+@
+You decide to try out the test-a-quest feature#
+Ahh, you chose that option.#
+You leave#
+
+6:
+
+The grouchy potion peddler with white hair, whiter skin and a smattering of scars gets even grouchier every time you call him Gerald. I'd be grouchy too if my name was Gerald.#
+#
+1) Potion of lesser healing#
+2) Hasty potion#
+3) Leave#
+@
+Purchased 1 healing potion#
+Purchased 1 Hasty postion#
+Other things to do#
+
+7:
+
+"You want it? You got it!", Booms the voice of the man wearing a bronze mask and weilding a giant hammer. Alongside his penchant for mass production, being hungry and talking about his daughter comprise the entirety of his personality.#
+#
+1) Buy Wooden Sword#
+2) Chat about pigs#
+3) Leave#
+@
+Purchased a sword#
+Have a laugh over some pig anecdotes#
+people to see#
+
+8:
+
+You take your trusty old questing journal from the bookshelf and brush away the dust from its familiar leather-bound cover. It has been some time since your last quest, maybe brushing up on your old notes is a wise choice.#
+#
+1) The Inventory#
+2) Battling#
+3) Leave#
+@
+Notes on how to store and organise everything you need for a successful adventre...#
+Best any foe with these hard, fast rules on fighting...#
+Time to close this old book, and open a new one...# 
+
+9:
+
+The Inventory - Press 'i' to open your inventory, it is available at almost any time except, for instance, during battle. The inventory is where you store weapons, shields and items. Use the 'up' and 'down' arrows to select one of these catagories.  Once selected you can view the list of your current items on the right. selecting the number of an item will highlight it, this way you may view the item's description and stats. Press enter to equip an item, this change is visible in the corresponding category above. Attempting to epuip the same item twice will unequip it.#
+#
+1) Back#
+@
+#
+#
+
+10:
+
+Battling - When a battle begins your equipment will dictate which actions you can make. 'Attack' with your equipped weapon to deal damage, the better the weapon the higher damage. 'Defend' with you shield to halve damage from incoming attacks, this always goes first, an equipped shield also offers a passive defence bonus. 'Use' your equipped items, their effects vary so always check thier description in your inventory. Some items do not provide action options, but instead provide passive bonuses both in and out of battle.#
+#
+1) Next page.#
+2) Back.
+@
+#
+# 
+
+11:
+
+Be aware of you and your opponents 'speed'. Whoever has the highest speed at the start of a turn has the initiative to go first, and in addition has the change to deal 'critical' damage when attacking. But don't worry, defending, or using defensive items raises your speed allowing you to take the initiative. However, attacking and offensive items lower your speed. This is of course true of the enemy as well. If your opponent becomes too much faster than yourself, you may lose the opportunity to act that turn.#
+#
+1) Back.
+@
+#
+#
+
+12:
+
+Navigation is a fundamental tenet of all woodsmen and travelers. These winding stone paths are no different to the trails of the wild. The library is around the corner on the left...surely.#
+#
+1) Turn left.#
+2) Procede forward.#
+3) Turn right.#
+@
+This time for sure...#
+Or was this way?...#
+#
+
+13:
+
+Another alley, a fine place for an ambush.#
+#
+1) Keep moving forward.#
+2) Go back.#
+@
+Hopefully there's nobody unsavoury waiting at the other end...#
+Or now sneaking up behind you...#
+
+14:
+
+A fork in the road, neither path seems optimal.#
+#
+1) Left.#
+2) Right.#
+@
+Perhaps the library was on the left after all, unless you got turned around...#
+The way right seems marginally less dank though...#
+
+15:
+
+This part of the city wall looks ready to give way. Best to hasten your step.#
+#
+1) Hurry on.#
+@
+Even ruffians wouldn't tally here...#

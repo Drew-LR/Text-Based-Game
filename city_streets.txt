@@ -1,0 +1,27 @@
+Navigation is a fundamental tenet of all woodsmen and travelers. These winding stone paths are no different to the trails of the wild. The library is around the corner on the left...surely.#
+#
+1) Turn left.#
+2) Procede forward.#
+3) Turn right.#
+@
+This time for sure...#
+Or was this way?...#
+#
+
+
+Another alley, a fine place for an ambush.#
+#
+1) Keep moving forward.#
+2) Go back.#
+@
+Hopefully there's nobody unsavoury waiting at the other end...#
+Or now sneaking up behind you...#
+
+
+A fork in the road, neither path seems optimal.#
+#
+1) Left.#
+2) Right.#
+@
+Perhaps the library was on the left after all, unless you got turned around...#
+The way right seems marginally less dank though...#

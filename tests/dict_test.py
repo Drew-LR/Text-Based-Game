@@ -1,5 +1,7 @@
 # from blessed import Terminal
 # term = Terminal()
+import random
+
 
 # while term.cbreak():
 
@@ -33,14 +35,26 @@
 #     #func_to_execute1(new_list)
 
 
-stat_dict = {'name':100, 'hp': 10}
+# stat_dict = {'name':100, 'hp': 10}
 
-def func(key):
-    for k,v in stat_dict.items():
-                if key == k:
-                    stat = v
+# def func(key):
+#     for k,v in stat_dict.items():
+#                 if key == k:
+#                     stat = v
 
-    print(stat)
+#     print(stat)
 
-func('name')
+# func('name')
+
+dict = {'key1': ['name', 1, 2, 'mane', (2,5)],'key2': ['name', 1, 2, 'mane', (2,5)],'key3': ['name', 1, 2, 'mane', (2,5)]}
+
+# def func():
+#     list = []
+#     for v in dict.values():
+#         name = random.choice(v)
+#         list.append(name)
+#     print (list)
+
+# func()
+
 
