@@ -1,287 +1,165 @@
 
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False.
- constants.unmaze? Index 6. Maze False.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False.
- next? 2.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False.
- next? 7.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze True
- next? 2.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze False
- next? 2.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze False
- next? 6.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze False
- constants.unmaze? Index 1. Maze False. Unmaze False
- constants.unmaze? Index 1. Maze False. Unmaze False
- constants.unmaze? Index 1. Maze False. Unmaze False
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze False
  next? 7.
  next? 8.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze False
+ constants.maze? Index 4. Maze True.
+ k = old_town.
+ 0.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 3, ('East', 'Exit', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 1.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 'Exit', '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2.1)
+ 1.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 1, ('West',), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 0.1)
+ 2.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 0.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 3.1)
+ 3.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 4.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2.1)
+ 4.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 3.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 5.1)
+ 5.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 4.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 6.1)
+ 6.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 7.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 5.1)
+ 7.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('East', 'West'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 8.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 6.1)
+ 8.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 7.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 9.1)
+ 9.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 2, ('North', 'Entrance'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 8.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fa00933a7f0>>, 'Entrance')
+ Exit : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7fa00932eca0>>, 0)
+ Entrance : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7fa00932eca0>>, 0)
+ maze =True
+ reversed. index = 9.1
+ constants.absolute in txthndlr 8.1.
+ constants.absolute? Index 8.1.
  next? 7.
- next? 8.
- next? 9.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze is True
- constants.maze? Index 6. Maze True.
- next? 1.
- constants.unmaze? Index 1. Maze False. Unmaze False
  next? 7.
- next? 8.
- next? 9.
- next? 1.
- next? 2.
+ changed to false
+ constants.maze? Index 6. Maze True.
+ k = old_town.
+ 0.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f99a088c820>>, 2, ('Exit', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 'Exit', '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 1.1)
+ 1.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f99a088c820>>, 2, ('North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 0.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 2.1)
+ 2.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f99a088c820>>, 2, ('North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 1.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 3.1)
+ 3.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f99a088c820>>, 2, ('North', 'Entrance'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 2.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f99a088c820>>, 'Entrance')
+ Exit : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f99a0882e50>>, 0)
+ Entrance : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f99a0882e50>>, 0)
+ maze =True
+ constants.absolute in txthndlr 1.1.
+ constants.absolute? Index 1.1.
  constants.absolute in txthndlr 2.1.
  constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
+ constants.absolute in txthndlr 3.1.
+ constants.absolute? Index 3.1.
+ constants.absolute in txthndlr Entrance.
+ constants.absolute? Index Entrance.
+ unmaze? entrance. start 6
  constants.absolute? Index 6.
- maze =
- 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f639adfee20>>, 12, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 2, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 2)
- 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f639adfee20>>, 13, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 1)
- 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f639adfee20>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f639adfee20>>, 1)
- 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f639adfee20>>, 5)
+ changed to false
  constants.maze? Index 6. Maze True.
- next? 1.
- next? 2.
+ k = old_town.
+ 0.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('East', 'Exit'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 1.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 'Exit')
+ 1.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 0.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2.1)
+ 2.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 3.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 1.1)
+ 3.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 4.1)
+ 4.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 3.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 5.1)
+ 5.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 4, ('East', 'West', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 6.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 7.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 4.1, '4', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 9.1)
+ 6.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 5.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 8.1)
+ 7.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('East', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 5.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 10.1)
+ 8.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 9.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 6.1)
+ 9.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 3, ('East', 'West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 8.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 10.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 5.1)
+ 10.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 3, ('East', 'West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 9.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 11.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 7.1)
+ 11.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('East', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 10.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 12.1)
+ 12.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 11.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 13.1)
+ 13.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 2, ('North', 'Entrance'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 12.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f52c4bd3820>>, 'Entrance')
+ Exit : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f52c4bc9e50>>, 0)
+ Entrance : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f52c4bc9e50>>, 0)
+ maze =True
+ constants.absolute in txthndlr 1.1.
+ constants.absolute? Index 1.1.
  constants.absolute in txthndlr 2.1.
  constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze =
- 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 12, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 1)
- 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 1)
- 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 2)
- 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7fd522cb63d0>>, 5)
+ constants.absolute in txthndlr 3.1.
+ constants.absolute? Index 3.1.
+ constants.absolute in txthndlr 4.1.
+ constants.absolute? Index 4.1.
+ constants.absolute in txthndlr 5.1.
+ constants.absolute? Index 5.1.
+ constants.absolute in txthndlr 9.1.
+ constants.absolute? Index 9.1.
+ constants.absolute in txthndlr 8.1.
+ constants.absolute? Index 8.1.
+ constants.absolute in txthndlr 9.1.
+ constants.absolute? Index 9.1.
+ constants.absolute in txthndlr 10.1.
+ constants.absolute? Index 10.1.
+ constants.absolute in txthndlr 11.1.
+ constants.absolute? Index 11.1.
+ constants.absolute in txthndlr 12.1.
+ constants.absolute? Index 12.1.
+ constants.absolute in txthndlr 13.1.
+ constants.absolute? Index 13.1.
+ constants.absolute in txthndlr Entrance.
+ constants.absolute? Index Entrance.
+ unmaze? entrance. start 4
+ constants.absolute? Index 4.
+ changed to false
  constants.maze? Index 6. Maze True.
- next? 1.
- next? 2.
+ k = old_town.
+ 0.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'Exit'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 'Exit')
+ 1.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 0.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2.1)
+ 2.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('West', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 4.1)
+ 3.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1, ('East',), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2.1)
+ 4.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 5.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2.1)
+ 5.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 4.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 6.1)
+ 6.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('East', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 7.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 5.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 8.1)
+ 7.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1, ('West',), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 6.1)
+ 8.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 9.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 6.1)
+ 9.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'West'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 8.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 10.1)
+ 10.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('East', 'West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 9.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 11.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 13.1)
+ 11.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('East', 'West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 10.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 12.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1)
+ 12.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 11.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 15.1)
+ 13.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 10.1)
+ 14.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 4, ('East', 'West', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 13.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 15.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 11.1, '4', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 16.1)
+ 15.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 12.1)
+ 16.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('North', 'Entrance'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 'Entrance')
+ Exit : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f0240cfee50>>, 0)
+ Entrance : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f0240cfee50>>, 0)
+ maze =True
+ constants.absolute in txthndlr 1.1.
+ constants.absolute? Index 1.1.
  constants.absolute in txthndlr 2.1.
  constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze =
- 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 12, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2)
- 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 1)
- 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 1)
- 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f5768bdbeb0>>, 5)
- constants.maze? Index 6. Maze True.
- constants.absolute in txthndlr 2.
- constants.absolute? Index 2.
- constants.absolute in txthndlr 2.
- constants.absolute? Index 2.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 1.
- constants.absolute? Index 1.
- constants.absolute in txthndlr 2.
- constants.absolute? Index 2.
- constants.absolute in txthndlr 2.
- constants.absolute? Index 2.
- constants.absolute in txthndlr 2.
- constants.absolute? Index 2.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze =
- 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 13, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 2)
- 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 1)
- 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 2)
- 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f6068c5ceb0>>, 5)
- constants.maze? Index 6. Maze True.
- next? 1.
- next? 2.
- constants.absolute in txthndlr 2.1.
- constants.absolute? Index 2.1.
- next? 3.
- next? 4.
- constants.absolute in txthndlr 6.
- constants.absolute? Index 6.
- maze =
- 0 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 13, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 2)
- 1 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 14, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 2, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 1)
- 2 : (<bound method Text_handler.branch of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 15, '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 1)
- 99 : (<bound method Text_handler.story of <text_handler.Text_handler object at 0x7f85aa5b13d0>>, 5)
- constants.maze? Index 6. Maze True.
+ constants.absolute in txthndlr 4.1.
+ constants.absolute? Index 4.1.
+ constants.absolute in txthndlr 5.1.
+ constants.absolute? Index 5.1.
+ constants.absolute in txthndlr 6.1.
+ constants.absolute? Index 6.1.
+ constants.absolute in txthndlr 8.1.
+ constants.absolute? Index 8.1.
+ constants.absolute in txthndlr 9.1.
+ constants.absolute? Index 9.1.
+ constants.absolute in txthndlr 10.1.
+ constants.absolute? Index 10.1.
+ constants.absolute in txthndlr 13.1.
+ constants.absolute? Index 13.1.
+ constants.absolute in txthndlr 14.1.
+ constants.absolute? Index 14.1.
+ constants.absolute in txthndlr 16.1.
+ constants.absolute? Index 16.1.
+ constants.absolute in txthndlr Entrance.
+ constants.absolute? Index Entrance.
+ unmaze? entrance. start 5
+ constants.absolute? Index 5.
+ constants.absolute in txthndlr 4.
+ constants.absolute? Index 4.
+ constants.maze? Index 4. Maze True.
+ k = old_town.
+ 0.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'Exit'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 'Exit')
+ 1.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 0.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2.1)
+ 2.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('West', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 4.1)
+ 3.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1, ('East',), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2.1)
+ 4.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 5.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2.1)
+ 5.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 4.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 6.1)
+ 6.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('East', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 7.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 5.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 8.1)
+ 7.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 1, ('West',), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 6.1)
+ 8.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 9.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 6.1)
+ 9.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'West'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 8.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 10.1)
+ 10.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('East', 'West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 9.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 11.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 13.1)
+ 11.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 3, ('East', 'West', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 10.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 12.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1)
+ 12.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 11.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 15.1)
+ 13.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('West', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 10.1)
+ 14.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 4, ('East', 'West', 'North', 'South'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 13.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 15.1, '3', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 11.1, '4', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 16.1)
+ 15.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('East', 'North'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 12.1)
+ 16.1 : (<bound method Text_handler.room of <text_handler.Text_handler object at 0x7f0240d237c0>>, 2, ('North', 'Entrance'), '1', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 14.1, '2', <bound method Text_handler.go_to of <text_handler.Text_handler object at 0x7f0240d237c0>>, 'Entrance')
+ Exit : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f0240cfee50>>, 0)
+ Entrance : (<bound method Maze.exit_maze of <maze_handler.Maze object at 0x7f0240cfee50>>, 0)
+ maze =True
+ reversed. index = 16.1

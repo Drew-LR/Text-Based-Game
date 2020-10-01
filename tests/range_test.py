@@ -5,9 +5,8 @@ import random
 # for i in range(v, 0, 1):
 #     print('p')
 
-list = (2,4)
 
 
-chance = random.randint(list)
+new_dict['key'] = 'value'
 
-print(chance)
+print(new_dict)

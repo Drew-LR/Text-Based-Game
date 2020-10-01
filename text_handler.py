@@ -5,9 +5,11 @@ import random
 import threader
 import inventory
 import ui
+import maze_map
 
 ui_ob = ui.Ui()
 inventory_ob = inventory.Inventory(ui_ob)
+maze_map = maze_map.Map()
 
 class Text_handler(): # this class displaying text of various types and handles cases where the player responds to text by making choices.
     def __init__(self):
@@ -84,8 +86,8 @@ class Text_handler(): # this class displaying text of various types and handles 
                 ui_ob.ui_update()
                 for i in range(len(argv)): # iterate through each index in argv.
                     if argv[i] == str(key): # if an arg in argv matches the string stored in 'key', print (with text wrapping) the line in text2 which corresponds to that number. key is converted to int and used as the index of text2 (-1 because the optional args in argv always start at 1 so the player doesn't input a zeroth choice) 
-                        if key == argv[-3]:
-                            constants.absolute = constants.current_branch
+                        # if key == argv[-3]:
+                        #     constants.absolute = constants.current_branch
                             
                         update(int(key)+2)
                         print (textwrap.fill(text2[int(key)-1], term.width, break_long_words=False) + self.press_confirm)
@@ -185,3 +187,124 @@ class Text_handler(): # this class displaying text of various types and handles 
             return ''
         else:
             return ''
+
+    def room(self, doors_num, choices,  *argv):
+        def open_text():
+            file = open('room.txt', 'r')
+            data = file.read()
+            file.close()
+            paragraph = data.split("\n\n")
+            
+            file = open('room_list', 'w')
+            for i,j in enumerate(paragraph):
+                file.write('\n{}:\n{}\n'.format(i,j))
+            file.close()
+            return paragraph
+
+        def update(bold=0, key_text=0): 
+            print(term.home + term.move_down(7) + term.clear_eos) # clear the text area before iterating.
+            print(self.text_pos + term.clear_eos + textwrap.fill(random_room, term.width, break_long_words=False) + '\n') #print room text
+            
+            for j, k in enumerate(choices):
+                if j+1 == bold:
+                
+                    print(term.bold(' ' + '{}) '.format(str(j+1)) + k))
+                else:
+                    print(' ' + '{}) '.format(str(j+1)) + k)
+
+            if key_text != 0:
+                print(key_text)
+
+        def interact():
+            key_place = 0
+            key_text = 0
+            while 1:
+                key = term.inkey() # wait for key press and bind it to variable 'key', number keys return a string of that number.
+                ui_ob.ui_update()
+                for i in range(len(argv)): # iterate through each index in argv.
+                    if argv[i] == str(key): # if an arg in argv matches the string stored in 'key', print (with text wrapping) the line in text2 which corresponds to that number. key is converted to int and used as the index of text2 (-1 because the optional args in argv always start at 1 so the player doesn't input a zeroth choice) 
+                            
+                        update(int(key))
+                        print (self.press_confirm)
+                        key_place = int(key)
+                        key_text = self.press_confirm
+                        
+                        res2 =0 # so we can check if its assigned another value
+                        if type(argv[i+1]) == tuple:
+                            res2, res3 = argv[i+1][0], argv[i+1][1]
+                            res4, res5 = argv[i+1][2], argv[i+1][3]
+                        else:    
+                            res, res1 = argv[i+1], argv[i+2] # function, parameter
+                        
+                if key == 'i':
+                    inventory_ob.inventory()
+                    update(key_place, key_text)
+
+                if key == 'm':
+                    maze_map.open()
+                    update(key_place, key_text)
+
+                if key.is_sequence and key.name == 'KEY_ENTER':
+
+                    try:
+                        if res2 == 0: # if res2 was assigned it means we found a tuple
+                            return (res, res1) # no tuple
+                        else:
+                            return (res2, res3, res4, res5) # tuple
+                    except:
+                        pass
+        paragraph = open_text()
+
+        one_door = []
+        two_door = []
+        three_door = []
+        four_door = []
+        for i in paragraph:
+            if i.endswith('.'): # appends to all if ambiguous about the number of doors
+                one_door.append(i)
+                two_door.append(i)
+                three_door.append(i)
+                four_door.append(i)
+            if i.endswith('#1door'): # for rooms with one door (dead ends)
+                one_door.append(i[:-6])
+            if i.endswith('#2door'): # two doors
+                two_door.append(i[:-6])
+            if i.endswith('#3door'): # three
+                three_door.append(i[:-6])
+            if i.endswith('#4door'): # four
+                four_door.append(i[:-6])
+            
+        if doors_num == 1:
+            room_from = one_door 
+        elif doors_num == 2:
+            room_from = two_door 
+        elif doors_num == 3:
+            room_from = three_door 
+        elif doors_num == 4:
+            room_from = four_door 
+        random_room = random.choice(room_from)
+        
+        update()
+        res = interact()
+        if len(res) == 2:
+            if 'inventory' or 'go_to' not in str(res[0]): # inventory and goto changes dont return something to print
+                return res[0](res[1]) # this returns us directly to a print statement, if there's nothing to print it will print none.
+            else:
+                threader.return_func(res[0], res[1]) # for the non-print result we need to use this
+                return '' # then return a nothing string so that 'none' doesnt print
+        else: # res has four elements
+            if 'gold' in str(res[2]) and res[3] < 0 and res[3] < ui_ob.gold: # player tried to make a purchase, check they have enough gold.
+                return res[2](res[3])
+                # to expand here... if player has max hp, dont let them pay for healing. 
+            else:
+                if 'hp' in str(res[0]) or 'gold' in str(res[0]):# check if the first tuple is a function that prints
+                    threader.print_func(res[0], res[1]) # if so feed it to threaders print function
+                else:
+                    threader.return_func(res[0], res[1]) # if not feed it to threaders return function
+
+                if 'hp' in str(res[2]) or 'gold' in str(res[2]):
+                    threader.print_func(res[2], res[3])
+                else:
+                    threader.return_func(res[2], res[3])
+                return ''
+        

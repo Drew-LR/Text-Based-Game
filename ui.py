@@ -133,8 +133,10 @@ class Ui():
         print(term.home + term.move_down(3) + term.move_right(term.width//3) + term.clear_eol + "{:>8}{:<}".format('Item 2: ', cls.item_2.name)) 
 
         # column 3
-        print(term.home + term.move_right(term.width-15) + 'I for inventory'
-)
+        print(term.home + term.move_right(term.width-15) + 'I for inventory')
+        print(term.home + term.move_down(1) + term.move_right(term.width-15) + 'M for map')
+            
+
         # print a line
         print(term.home + term.move_down(3))
         for i in range(0,term.width):

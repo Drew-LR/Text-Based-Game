@@ -32,3 +32,9 @@ This is the ultimate test of the open question feature! it has four posibilities
 @
  It seems to have worked, you pass through the door in the most mundane way imaginable...#
  You ram the door forcefully with your head! It flys open dramatically and you swagger through it, looking for any bottles which may happen to be sequestered within...#
+
+
+You are victorious! But as you look around, through the broken window you see more Goblins escaping across the yard. The librarian lies dead. It dawns on you that this was not merely an inconveniently timed assult on a hapless librarian. But the answers have already escaped over the wall. The slain Goblin bears the crest of its clan. Only a single clue, but perhaps enough to begin with...
+
+
+exploring the library...

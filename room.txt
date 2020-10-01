@@ -1,0 +1,13 @@
+Navigation is a fundamental tenet of all woodsmen and travelers. These winding stone paths are no different to the trails of the wild. The library is around the corner on the left...surely.
+
+
+This part of the city wall looks ready to give way. Best to hasten your step.
+
+
+Another alley, a fine place for an ambush.#2door
+
+
+A fork in the road, neither path seems optimal.#3door
+
+
+A crossroads offers more possibilities, but fewer certainties.#4door

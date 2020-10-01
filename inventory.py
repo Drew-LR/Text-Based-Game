@@ -3,6 +3,7 @@ import constants
 import items_lib
 import textwrap
 
+
 master_weapon_list = [items_lib.wooden_sword, items_lib.stone_club, items_lib.tree_branch]
 master_shield_list = [items_lib.leather_buckler, items_lib.pot_lid, items_lib.uber_aegis]
 master_items_list = [items_lib.ork_teeth, items_lib.fur_ball, items_lib.magic_beans]
@@ -183,4 +184,3 @@ class Inventory():
                     current_item = 0
                 #self.print_menu(current_row)
                 self.print_list(current_row, current_item)
-
